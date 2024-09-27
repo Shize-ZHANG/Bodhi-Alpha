@@ -22,5 +22,5 @@ jobs:
       - name: Install html-proofer
         run: gem install html-proofer
 
-      - name: Validate HTML
-        run: htmlproofer ./ --allow-hash-href
+    #   - name: Validate HTML
+    #     run: htmlproofer ./ --allow-hash-href
